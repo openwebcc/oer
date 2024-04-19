@@ -1,0 +1,103 @@
+/* CSS-Stile für die Neuseelandreise */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:ital@0;1&family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    max-width: 1280px;
+    margin: auto;
+}
+
+header>img {
+    max-width: 100%;
+}
+
+header div.course-header {
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+header div.course-header h4 {
+    margin: 1em 0;
+}
+
+header div.course-header nav {
+    text-align: right;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+main {
+    max-width: 1024px;
+    margin: auto;
+}
+
+article {
+    margin-top: 1em;
+    padding: 1em;
+    box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+article p {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    line-height: 1.2em;
+}
+
+article h1,
+article h2,
+article h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+article figure>img {
+    width: 100%;
+}
+
+#map {
+    width: 90%;
+    height: 600px;
+    border: 1px solid silver;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 2em 3em 2em;
+}
+
+footer nav {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+}
+
+a {
+    color: black;
+}
+
+header img,
+figure>img,
+#map {
+    box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.credits {
+    font-size: 0.85em;
+}
+
+@media screen and (max-width: 1280px) {
+    main {
+        border: none;
+    }
+
+    figure {
+        margin-left: 0;
+        width: 100%;
+    }
+}
